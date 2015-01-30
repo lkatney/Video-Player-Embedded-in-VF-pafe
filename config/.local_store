@@ -1,0 +1,41 @@
+{
+    "JWplayer.resource": {
+        "createdById": "00590000000tQBwAAM", 
+        "createdByName": "Lakshay Katney", 
+        "createdDate": "2013-03-13 18:28:43", 
+        "fileName": "unpackaged/staticresources/JWplayer.resource", 
+        "fullName": "JWplayer", 
+        "id": "08190000000O5U5AAK", 
+        "lastModifiedById": "00590000000tQBwAAM", 
+        "lastModifiedByName": "Lakshay Katney", 
+        "lastModifiedDate": "2013-03-13 18:28:43", 
+        "mmState": "clean", 
+        "type": "StaticResource"
+    }, 
+    "VideoPlayer.page": {
+        "createdById": "00590000000tQBwAAM", 
+        "createdByName": "Lakshay Katney", 
+        "createdDate": "2013-02-25 21:41:41", 
+        "fileName": "unpackaged/pages/VideoPlayer.page", 
+        "fullName": "VideoPlayer", 
+        "id": "06690000002Hl0DAAS", 
+        "lastModifiedById": "00590000000tQBwAAM", 
+        "lastModifiedByName": "Lakshay Katney", 
+        "lastModifiedDate": "2015-01-30 11:37:19", 
+        "mmState": "clean", 
+        "type": "ApexPage"
+    }, 
+    "Videoplayerextension.cls": {
+        "createdById": "00590000000tQBwAAM", 
+        "createdByName": "Lakshay Katney", 
+        "createdDate": "2013-03-13 19:57:40", 
+        "fileName": "unpackaged/classes/Videoplayerextension.cls", 
+        "fullName": "Videoplayerextension", 
+        "id": "01p90000002TVR8AAO", 
+        "lastModifiedById": "00590000000tQBwAAM", 
+        "lastModifiedByName": "Lakshay Katney", 
+        "lastModifiedDate": "2013-03-13 20:05:28", 
+        "mmState": "clean", 
+        "type": "ApexClass"
+    }
+}

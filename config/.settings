@@ -1,0 +1,19 @@
+{
+    "username": "lakshay.katney@main.com", 
+    "environment": "production", 
+    "project_name": "Main", 
+    "workspace": "/Users/admin/Documents/Work/mm_workspace", 
+    "org_url": "", 
+    "namespace": "", 
+    "id": "OORKXE531FNS6NMNZ6Z09AMAUMEIJT1V", 
+    "metadata_container": "1dc90000000TXYfAAO", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "CustomObject", 
+        "Profile", 
+        "StaticResource"
+    ]
+}

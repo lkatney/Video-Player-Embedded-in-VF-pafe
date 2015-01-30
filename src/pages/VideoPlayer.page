@@ -1,0 +1,61 @@
+<apex:page title="Video Player in VF" sidebar="false" controller="Videoplayerextension">
+<!--Upload Mpg video on Static Resource like Geographic -->
+
+<head>
+
+<!-- add libraries -->
+<script type="text/javascript" src="{!$Resource.JWplayer}/jwplayer/jwplayer.js"></script>
+<script type="text/javascript">jwplayer.key="YOUR_JWPLAYER_LICENSE_KEY";</script>
+
+<!-- setup an initial video to be played -->
+<script>
+  var a = "http://content.bitsontherun.com/videos/3XnJSIm4-kNspJqnJ.mp4";
+  var img = "http://content.bitsontherun.com/thumbs/3XnJSIm4-640.jpg";
+  function videoplay(url, image){
+  a = url;
+  img = image;
+  }
+</script>
+</head>
+<html>
+
+
+<body onload="videoplay()">
+<apex:outputPanel id="panel">
+<center><div id="container">
+
+<!-- initialize librarry to setup and run a video on page load -->
+<script type="text/javascript">
+    jwplayer("container").setup({
+        file: a,
+        image: img
+    });
+
+</script>
+{!$Resource.sampleFile}
+</div></center>
+
+<br/><br/>
+
+<!-- use of video tag of HTML to run it -->
+<center>
+<video width="1000" height="240" controls="controls" autoplay="">
+  <source src="https://c.ap1.content.force.com/servlet/servlet.FileDownload?file=01590000001JBhb" type="video/webm"/> 
+</video>
+</center>
+</apex:outputPanel>
+
+<!-- table to display list of videos -->
+<apex:form >
+<apex:pageblock >
+<apex:pageBlockTable value="{!lstdoc}" var="doc">
+<apex:column >
+<apex:commandLink action="{!execute}" reRender="panel" onclick="videoplay('{!doc.url}','')">{!doc.developername}</apex:commandlink>
+</apex:column>
+</apex:pageBlockTable>
+</apex:pageblock>
+</apex:form>  
+
+</body>
+</html>
+</apex:page>
