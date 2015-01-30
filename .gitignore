@@ -1,0 +1,6 @@
+# Mavensmate Files #
+#######################
+*.sublime-project
+*.sublime-settings
+*.sublime-workspace
+config/*
